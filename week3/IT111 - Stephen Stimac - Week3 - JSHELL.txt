@@ -1,0 +1,25 @@
+Microsoft Windows [Version 10.0.22621.1555]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\steph>jshell
+|  Welcome to JShell -- Version 20
+|  For an introduction type: /help intro
+
+jshell> jshell
+|  Error:
+|  cannot find symbol
+|    symbol:   variable jshell
+|  jshell
+|  ^----^
+
+jshell>
+
+jshell> string name = "Olga";
+|  Error:
+|  cannot find symbol
+|    symbol:   class string
+|  string name = "Olga";
+|  ^----^
+
+jshell> String name = "Olga";
+name ==> "Olga"
